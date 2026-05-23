@@ -1,0 +1,61 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}  
+body{
+    background-color: lightgray;
+}
+.post-insta{
+    border: 1px solid black;
+    width: 500px;
+    
+    margin: 8px auto;
+    display:flex;
+    flex-direction: column;
+}
+.encabezado-post{
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+.encabezado-izq{
+    display:flex;
+    justify-content: flex-start;
+}
+.contenido{
+    background-color: white;
+    width: 400px;
+    height: 450px;
+    display:flex;
+    flex-direction: column;
+    margin: 8px auto
+}
+.photo-head{
+    background-color: white;
+    width: 400px;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.photo-head-left{
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+}
+.photo-head-rigth{
+    font-size: medium;
+    color: grey;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+.photo{
+    width: 400px;
+    height: 350px;
+    align-self:flex-start
+    
+}
+.pie-foto{
+    align-items: flex-end;
+}
